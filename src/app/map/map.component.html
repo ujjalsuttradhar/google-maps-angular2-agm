@@ -1,0 +1,15 @@
+<agm-map [latitude]="lat" [longitude]="lng" [fitBounds]="bounds">
+    <agm-marker *ngFor="let marker of markers; let i = index" 
+              [latitude]="marker.lat" 
+              [longitude]="marker.lng" 
+              [label]="marker.label"
+              (markerClick)="clickedMarker(marker.label, infoWindow, i)">
+      <agm-info-window #infoWindow>
+        <h1 class="title-1">{{marker.name}}</h1>
+        <h2 class="title-2">{{marker.address}}</h2>
+        <div class="info">
+            <h4 class="title-3">{{marker.contact}}</h4>
+        </div>
+      </agm-info-window>
+    </agm-marker>
+  </agm-map>

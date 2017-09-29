@@ -1,0 +1,25 @@
+agm-map {
+    width: 100%;
+    height: 600px;
+}
+
+.agm-info-window-content {
+    width: 200px !important;
+}
+
+h1.title-1 {
+    min-width: 200px;
+    font-size: 15px;
+}
+
+.title-2 {
+    font-size: 13px;
+}
+
+.title-3 {
+    font-size: 11px;
+}
+
+.info {
+
+}

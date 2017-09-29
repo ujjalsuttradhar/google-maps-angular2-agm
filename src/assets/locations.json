@@ -1,0 +1,25 @@
+{
+  "locations": [
+            {
+                "lat": 23.7861643,
+                "lng": 90.4139684,
+                "name": "Dhaka Branch",
+                "address": "Rd-32, Gulshan, Dhaka",
+                "contact": "+880111111111"
+            },
+            {
+                "lat": 22.3427563,
+                "lng": 91.8356877,
+                "name": "Ctg Branch",
+                "address": "Anderkilla Square, Chittagong",
+                "contact": "+880111111111"
+            },
+            {
+                "lat": 25.171614,
+                "lng": 92.0161417,
+                "name": "Sylhet Branch",
+                "address": "Mamar Bazar Jaflong, Sylhet",
+                "contact": "+880111111111"
+            }
+        ]  
+}
