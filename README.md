@@ -1,6 +1,6 @@
 # GoogleMap-Angular2-AGM
 
-This project is an implementation of Google Map using [AGM (Angular Google Maps)](https://angular-maps.com/) library with all basic implementation we face problems with. 
+This project is an implementation of Google Map using [AGM (Angular Google Maps)](https://angular-maps.com/) library with all basic implementation we face problems with. Click for [Live Demo](http://ujjal.net/projects/gma2agm/)
 
 ## This example includes:
 * Display a single marker for lat,lng
